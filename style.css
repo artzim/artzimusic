@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;     
+    background-color: #436074;  
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 35px #436074; 
+}
+
+nav {
+    margin-left: auto;     
+    margin-right: 3rem;  
+}
+
+nav ul {
+    display: flex;           
+    list-style: none;    
+    gap: 10rem;       
+}
+
+nav ul li a {
+    color: white;             
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5rem 0;    
+}
+
+header img {
+    width: 70px;     
+    height: 70px;     
+}
+
+header p {
+    color: rgb(0, 0, 0);
+    font-family: 'Irish Grover', cursive;
+    font-size: 3rem;      
+    font-weight: bold;       
+    letter-spacing: 2px;     
+    margin: 0;
+}
+
+h1{
+    color:rgb(42, 104, 221);
+    font-family: 'Irish Grover', cursive;
+}
+
+p1{
+    display: flex;
+    justify-content: center;   
+    margin-top: 20px;
+    font-size: 50px;
+    color: rgba(8, 53, 177, 0.89);
+    font-family: 'Press Start 2P', cursive;
+}
