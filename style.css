@@ -56,3 +56,64 @@ p1{
     color: rgba(8, 53, 177, 0.89);
     font-family: 'Press Start 2P', cursive;
 }
+
+@media (min-width:300px) and (max-width: 500px){
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+    
+    header img {
+        width: 65px;
+        height: 65px;
+    }
+    
+    header p {
+        font-size: 3rem;
+    }
+    
+    nav {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    nav ul {
+        gap: 1.5rem;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    nav ul li a {
+        font-size: 1.5rem;
+    }
+    
+    p1 {
+        font-size: 30px;
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+    
+    form {
+        width: 100%;
+    }
+    
+    input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    button {
+        width: 100%;
+    }
+}
